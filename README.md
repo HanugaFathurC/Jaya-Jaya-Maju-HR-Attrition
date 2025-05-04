@@ -71,6 +71,24 @@ The modeling process focused on identifying patterns in the data that indicate p
 ### 🧪 Model Performance
 **Overall Accuracy** :        0.844      
 
+### 🚀 How to Run the Model
+
+After training the model, it was exported using `joblib`. 
+You can test new employee data using the `prediction.py`.
+
+#### 1. Install Required Libraries
+
+Make sure the following packages are installed:
+
+```bash
+pip install pandas scikit-learn joblib
+```
+
+#### 2. Run the Prediction Script
+```bash
+python prediction.py
+```
+
 
 
 
