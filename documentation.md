@@ -69,16 +69,19 @@ To address the above problems, this project includes the following scope:
 
 * **Environment Setup**: 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn sqlalchemy
+pip install pandas numpy matplotlib seaborn scikit-learn sqlalchemy python-dotenv psycopg2-binary imbalanced-learn
 ```
-| Library        | Description                                                  |
-| -------------- | ------------------------------------------------------------ |
-| `pandas`       | For working with tabular data (dataframes).                  |
-| `numpy`        | For numerical operations and arrays.                         |
-| `matplotlib`   | For basic data visualizations.                               |
-| `seaborn`      | For advanced and attractive statistical plots.               |
-| `scikit-learn` | For building and evaluating machine learning models.         |
-| `sqlalchemy`   | For database connection and ORM operations (e.g., Metabase). |
+| Library            | Description                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| `pandas`           | For working with tabular data (dataframes).                                |
+| `numpy`            | For numerical operations and arrays.                                       |
+| `matplotlib`       | For basic data visualizations.                                             |
+| `seaborn`          | For advanced and attractive statistical plots.                             |
+| `scikit-learn`     | For building and evaluating machine learning models.                       |
+| `sqlalchemy`       | For database connection and ORM operations (e.g., Metabase).               |
+| `python-dotenv`    | For managing environment variables using a `.env` file.                    |
+| `psycopg2-binary`  | PostgreSQL adapter for Python (used by SQLAlchemy to connect to Supabase). |
+| `imbalanced-learn` | For handling imbalanced datasets with resampling techniques like SMOTE.    |
 
 ---
 ## Business Dashboard
@@ -127,7 +130,7 @@ The majority of leavers had lower income:
 - 71 people earned between $2,500–$5,000
 - 53 people earned less than $2,500
 - Only 33 people earned above $5,000
-- 
+
 This supports the hypothesis that compensation may be a driving factor in attrition,
 especially for entry- and mid-level employees.
 
