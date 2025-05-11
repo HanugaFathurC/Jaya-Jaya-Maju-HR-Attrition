@@ -85,7 +85,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn sqlalchemy python-doten
 
 ---
 ## Business Dashboard
-![Dashboard](dashboard.png)
+![Dashboard](hanugafc-dashboard.png)
 
 The HR Attrition Dashboard – Jaya Jaya Maju was developed using Metabase and connected to a PostgreSQL database hosted on Supabase.
 
